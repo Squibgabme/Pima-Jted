@@ -1,0 +1,26 @@
+#Create Variables
+variable1 = 100
+variable2 = 200.00
+variable4 = 2j
+variable3 = "Marinara Monday"
+doesjosuelovemarinara=True
+print(variable1)
+print(variable2)
+print(variable3)
+
+#Numerical Types:
+print(type(variable1))
+print(type(variable2))
+print(type(variable4))
+
+#Character
+print(ord("M"))
+
+#Strings
+print(type(variable3))
+
+#Boolean
+print(doesjosuelovemarinara)
+
+#Casting
+print("Josue absolutely "+str(variable1)+" Percent loves "+ variable3)
